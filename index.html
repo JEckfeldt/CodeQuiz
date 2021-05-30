@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quiz</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <!-- navbar -->
+  <nav>
+    <section style="background-color: darkblue;" class="nav-wrapper">
+      <ul id="nav-mobile" class="right hide-on-sm-and-down">
+      </ul>    </section>
+  </nav>
+
+  <!-- big display -->
+  <header class="container">
+    <section class="row">
+      <section class="col s1"></section>
+      <section class="col s10 center">
+        <h3>JavaScript Quiz!</h3>
+        <h5>Timed quiz, incorrect answers will subtract from your time!</h5>
+        <h6 id="timer" class="hidden">Time: 0</h6>
+        <button id="highscores" class="waves-effect waves-light btn-large green myBtn">Show Highscores</button>
+        <div><a id="start" class="waves-effect waves-light btn-large green myBtn">Start Quiz!</a></div>
+      </section>
+      <br>
+      <section class="col s1"></section>
+    </section>
+  </header>
+
+  <!-- quiz section  -->
+  <main class="container">
+    <section class="row">
+      <section class="col s1"></section>
+      <section id="questions" class="col s10"></section>
+      <section class="col s1"></section>
+    </section>
+
+    <!-- Endscreen -->
+    <section class="row">
+      <section class="col s1"></section>
+      <section id="quizEnd" class="col s10"></section>
+      <section class="col s1"></section>
+    </section>
+
+    <!-- highscores -->
+    <section class="row">
+      <section class="col s1"></section>
+      <section id="scores" class="col s10"></section>
+      <section class="col s1"></section>
+    </section>
+  </main>
+
+  <!-- javascript links -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./assets/app.js"></script>
+</body>
+</html>

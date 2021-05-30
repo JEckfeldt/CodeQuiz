@@ -1,0 +1,13 @@
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.myBtn {
+  width: 60%;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
