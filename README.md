@@ -28,7 +28,7 @@ THEN I can save my initials and score
 
 The following picture demonstrates the application functionality:
 
-![code quiz](./Assets/Screenshot.png)
+![code quiz](./assets/Screenshot.png)
 
 ### Review
 
